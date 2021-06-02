@@ -1,0 +1,32 @@
+.navbar {
+  .navbar__item--icon{
+    height: 19px;
+    width: 18px;
+    opacity: 0.5;
+  }
+
+  .icon-wallet, .icon-profile{
+    margin-right: 10px;
+  }
+
+  .icon-arrow{
+    height: 11px;
+    width: 11px;
+    margin: 0 0 0 15px;
+  }
+}
+
+.sidebar .icon{
+  height: 16px;
+  width: 16px;
+}
+
+.links .icon{
+  height: 17px;
+  width: 17px;
+}
+
+.main-chart .icon{
+  height: 14px;
+  width: 14px;
+}

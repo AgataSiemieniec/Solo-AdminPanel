@@ -2,3 +2,12 @@
 *::after {
   box-sizing: border-box;
 }
+
+body {
+  font-family: $font-text;
+  font-size: $font-size-medium;
+}
+
+a {
+  text-decoration: none;
+}
