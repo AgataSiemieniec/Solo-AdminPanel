@@ -16,9 +16,11 @@
   }
 }
 
-.sidebar .icon{
-  height: 16px;
-  width: 16px;
+.sidebar{
+  .menu__item--icon{
+    height: 16px;
+    width: 16px;
+  }
 }
 
 .links .icon{
