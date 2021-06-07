@@ -2,3 +2,67 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: $color-grey-4;
+
+  main {
+    margin: 80px 20px 0 210px;
+    background-color: $color-grey-2;
+  
+    .container-fluid{
+      margin: 0 auto;
+      background-color: $color-white;
+      color: $color-grey-1;
+      width: 100%;
+    }
+  }
+
+  .statistics, .links {
+    box-shadow: 1px 1px 5px 1px $color-grey-2;
+    margin: 20px 0;
+  }
+}
+
+/* Grid: container media queries */
+
+// @media (min-width: $breakpoint-sm) {
+//   .container-fluid {
+//     max-width: 540px;
+//   }
+// }
+
+// @media (min-width: $breakpoint-md) {
+//   .container-fluid {
+//     max-width: 720px;
+//   }
+// }
+
+// @media (min-width: $breakpoint-lg) {
+//   .container-fluid {
+//     max-width: 960px;
+//   }
+// }
+
+// @media (min-width: $breakpoint-xl) {
+//   .container-fluid {
+//     max-width: 1140px;
+//   }
+// }
+
+/* Grid: breakpoints media queries */
+
+// @media (min-width: $breakpoint-sm) {
+//   @include grid('sm');
+// }
+
+// @media (min-width: $breakpoint-md) {
+//   @include grid('md');
+// }
+
+// @media (min-width: $breakpoint-lg) {
+//   @include grid('lg');
+// }
+
+// @media (min-width: $breakpoint-xl) {
+//   @include grid('xl');
+// }

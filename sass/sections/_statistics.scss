@@ -1,0 +1,123 @@
+.statistics {
+
+  &__header {
+    padding: 17px 0 15px 15px;
+    text-transform: uppercase;
+    height: 50px;
+    font-size: 15px;
+    border-bottom: $border;
+
+    &--title {
+      margin: 0;
+    }
+  }
+
+  &__date {
+    border-bottom: $border;
+    padding: 35px 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    &--input {
+      display: inline-flex;
+      border: $border;
+      height: 38px;
+      flex-wrap: wrap;
+    }
+
+    .date {
+      border: none;
+      margin: 10px;
+      background-color: $color-white;
+    }
+  }
+
+  &__summary {
+    background-color: $color-white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 16px;
+
+    &--table {
+      width: 100%;
+      max-width: 100%;
+      margin: 30px;
+    }
+
+    &--table-row {
+      margin: 0 auto;
+      display:flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    &--table-cell {
+      display:inline-flex;
+      justify-content: space-between;
+      width: 400px;
+      border-bottom: $border;
+      margin: 15px;
+
+      .cell-name {
+        font-weight: bold;
+      }
+
+      .cell-value {
+        color: $color-dark;
+      }
+    }
+  }
+  
+  &__chart {
+    margin-bottom: 40px;
+    width: 820px;
+    justify-content: center;
+    align-items: center;
+
+    &--title {
+      margin: 30px 0;
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }
+
+  .myChart {
+    position: relative;
+    margin: 0 auto;
+    z-index: 0;
+  }
+}
+
+@media (max-width: 1090px){
+  
+  .statistics__chart{
+    width: 600px;
+  }
+}
+
+@media (max-width: 850px){
+  
+  .statistics__chart{
+    width: 450px;
+  }
+}
+
+@media (max-width: 750px){
+  
+  .statistics__chart{
+    width: 350px;
+  }
+}
+
+@media (max-width: 599px){
+  
+  .statistics__chart{
+    width: 300px;
+  }
+}

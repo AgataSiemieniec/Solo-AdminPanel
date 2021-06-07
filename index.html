@@ -118,6 +118,64 @@
     </div>
   </section>
 
+  <!-- MAIN -->
+  <main>
+    <section class="statistics">
+      <div class="container-fluid">
+        <div class="statistics__header">
+          <p class="statistics__header--title">General Statistic</p>
+        </div>
+        <div class="statistics__date">
+          <div  class="statistics__date--input">
+            <input class="date" type="date" name="date" value="2016-05-16">
+          </div>
+          <div class="statistics__date--input">
+            <input class="date" type="date" name="date" value="2016-05-16">
+          </div>
+          <div class="statistics__date--buttons">
+            <img class="statistics__date--icon" src="images/icons/calendar.svg" alt="date" title="date" >
+            <button class="btn statistics__date--button">
+              <img class="statistics__date--icon-refresh" src="images/icons/refresh.svg" alt="refresh" title="refreshing" width="18" height="18">
+            </button>
+        </div>
+        </div>
+
+        <div class="statistics__summary">
+          <div class="statistics__summary--table">
+              <div class="statistics__summary--table-row">
+                  <div class="statistics__summary--table-cell">
+                      <div class="cell-name">Visit Signupus</div>
+                      <div class="cell-value">124</div>
+                  </div>
+                  <div class="statistics__summary--table-cell">
+                      <div class="cell-name">Net deposit</div>
+                      <div class="cell-value">564</div>
+                  </div>
+              </div>
+              <div class="statistics__summary--table-row">
+                  <div class="statistics__summary--table-cell">
+                      <div class="cell-name">FTD</div>
+                      <div class="cell-value">445</div>
+                  </div>
+                  <div class="statistics__summary--table-cell">
+                      <div class="cell-name">Turn over</div>
+                      <div class="cell-value">432</div>
+                  </div>
+              </div>
+          </div>
+          <div class="statistics__chart">
+            <div class="statistics__chart--title">
+              <p >Earnings chart</p>
+            </div>
+            <div class="myChart">
+              <canvas id="myChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
   <script src="js/script.js"></script>
 </body>

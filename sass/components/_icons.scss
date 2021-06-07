@@ -28,7 +28,11 @@
   width: 17px;
 }
 
-.main-chart .icon{
-  height: 14px;
-  width: 14px;
-}
+.statistics{
+  &__date--icon{
+    height: 14px;
+    width: 14px;
+    margin: 0 10px;
+  }
+} 
+
