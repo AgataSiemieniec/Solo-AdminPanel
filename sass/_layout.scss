@@ -7,21 +7,27 @@ body {
 
   main {
     margin: 80px 20px 0 210px;
-    background-color: $color-grey-2;
   
-    .container-fluid{
-      margin: 0 auto;
+    .container {
+      margin: 20px 0;
       background-color: $color-white;
-      color: $color-grey-1;
       width: 100%;
     }
   }
 
-  .statistics, .links {
+  .statistics {
     box-shadow: 1px 1px 5px 1px $color-grey-2;
-    margin: 20px 0;
+  }
+
+  .links {
+    box-shadow: 1px 1px 5px 1px $color-grey-2;
   }
 }
+
+main.active {
+  margin: 80px 20px 0 75px;
+}
+
 
 /* Grid: container media queries */
 

@@ -1,7 +1,8 @@
 /* MOBILE MENU */
 
 function toggleMenu(visible) {
-  document.querySelector('.sidebar__menu').classList.toggle('active', visible);
+  document.querySelector('.sidebar').classList.toggle('active', visible);
+  document.querySelector('main').classList.toggle('active', visible);
 }
 
 document.querySelector('.hamburger').addEventListener('click', function(e) {
