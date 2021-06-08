@@ -23,9 +23,11 @@
   }
 }
 
-.links img{
-  height: 17px;
-  width: 17px;
+.links {
+  &__table--icon{
+    height: 17px;
+    width: 17px;
+  }
 }
 
 .statistics{

@@ -20,11 +20,22 @@
   height: 40px;
   width: 125px;
   color: $color-white;
-  background-color: $color-orange-2;
-  border: 1px solid $color-orange-2;
+  background-color: $color-orange-1;
+  border: 1px solid $color-orange-1;
   border-radius: 5%;
   cursor: pointer;
   font-size: 18px;
   margin: 22px 0;
+  font-weight: $font-light;
+}
+
+@media (max-width: 576px){
+
+  .links_add-button{
+    font-size: 16px;
+    height: 35px;
+    width: 100px;
+  }
+  
 }
 

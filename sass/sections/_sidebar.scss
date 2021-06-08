@@ -126,3 +126,29 @@
     }
   }
 }
+
+@media (max-width: 767px){
+  #sidebar {
+    width: 55px;
+    transition: $transition-2;
+  
+    .sidebar__header--logo,
+    .manager__title,
+    .manager__name,
+    .manager__photo,
+    .sidebar__manager--profile::after {
+      display: none;
+    }
+  
+    .menu__item{
+      &--title {
+        overflow:hidden;
+      }
+      &--icon {
+        margin-right: 15px;
+        height: 18px;
+        width: 18px;
+      }
+    }
+  }
+}

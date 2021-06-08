@@ -4,6 +4,7 @@
 
 body {
   background-color: $color-grey-4;
+  color: $color-grey-1;
 
   main {
     margin: 80px 20px 0 210px;
@@ -26,6 +27,12 @@ body {
 
 main.active {
   margin: 80px 20px 0 75px;
+}
+
+@media (max-width: 767px){
+  body main {
+    margin: 80px 20px 0 75px;
+  }
 }
 
 
