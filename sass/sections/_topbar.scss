@@ -50,3 +50,11 @@
     margin-left: -8px;
   }
 }
+
+@media (max-width: 767px){
+  .navbar__item--price,
+  .navbar__item--user {
+    display: none;
+  }
+
+}
